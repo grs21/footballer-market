@@ -1,0 +1,50 @@
+.card-list {
+    margin-top: 24px;
+    margin-right: 25px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(0, 13em));
+    grid-template-rows: 1fr;
+    grid-gap: 10px;
+    background-color: #f2f4f5;
+    color: #444;
+    margin-bottom: 48px;
+}
+
+.shower-wrapper {
+    background: #F2F4F5;
+    border-radius: 8px;
+    margin: 122px 40px;
+    max-width: 1440px;
+    position: relative;
+}
+
+.options {
+    margin: 24px 24px 24px 24px;
+    height: min-content;
+}
+
+.shower-boady {
+    display: flex;
+}
+
+.page-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+    color: #000000;
+    padding: 24px 0 0 24px;
+
+}
+
+.cards-container {
+    flex: 1;
+}
+
+.display-none {
+    display: none;
+}
+
+.display-open {
+    display: block;
+}

@@ -1,0 +1,175 @@
+.navigation {
+    color: black;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.textbox {
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4%;
+    background-color: #dedede;
+    padding: 2%;
+}
+
+.bottom-arrow {
+    margin: 30px 26px 22px;
+}
+
+.custom-bottom-arrow {
+    margin: 22px 26px 22px;
+}
+
+.menu-list {
+    list-style: none;
+    display: block;
+    width: 199px;
+    padding: 0;
+    margin: 0;
+    font-size: 24px;
+}
+
+.menu-list li {
+    display: flex;
+}
+
+.menu-list li a,
+.menu-list #check-label {
+    transition: all 0.5s ease;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    text-decoration: none;
+
+}
+
+.sub {
+    margin: 0;
+    padding: 0;
+    height: 0;
+    width: 100%;
+    border-left: 20px solid #55f;
+    box-sizing: border-box;
+}
+
+.sub a {
+    color: #ededed;
+}
+
+.top-title {
+    margin: 24px auto 16px 24px;
+}
+
+.mid-title {
+    margin: 16px auto 16px 24px;
+}
+
+.custom-title {
+    margin: 16px auto 24px 24px;
+}
+
+.sub-title {
+    margin: 10px auto 10px 24px;
+    cursor: pointer;
+    color: #6C7072;
+}
+
+/* --------------------Type-------------------------------------------- */
+#check-type {
+    display: none;
+}
+
+#check-label {
+    min-width: 100%;
+}
+
+#check-label:hover,
+a:hover,
+#check-label:focus,
+a:focus {
+    cursor: pointer;
+}
+
+#check-type[type=checkbox]:checked~.subType {
+    height: auto;
+    pointer-events: all;
+    transition: height 0.2s;
+}
+
+#check-type[type=checkbox]:checked~.subType a {
+    color: #6C7072;
+    transition: color 0.2s 0.2s;
+}
+
+#check-type[type=checkbox]:not(checked)~.subType {
+    height: 0;
+    pointer-events: none;
+    transition: height 0.2s 0.2s;
+    list-style: none;
+}
+
+#check-type[type=checkbox]:not(checked)~.subType a {
+    color: rgba(51, 51, 51, 0);
+    transition: color 0.2s;
+}
+
+/* ---------------Position------------------------------------------------- */
+#check-position {
+    display: none;
+}
+
+#check-position[type=checkbox]:checked~.subPosition {
+    height: auto;
+    pointer-events: all;
+    transition: height 0.2s;
+}
+
+#check-position[type=checkbox]:checked~.subPosition a {
+    color: #6C7072;
+    ;
+    transition: color 0.2s 0.2s;
+}
+
+#check-position[type=checkbox]:not(checked)~.subPosition {
+    height: 0;
+    pointer-events: none;
+    transition: height 0.2s 0.2s;
+    list-style: none;
+}
+
+#check-position[type=checkbox]:not(checked)~.subPosition a {
+    color: rgba(51, 51, 51, 0);
+    transition: color 0.2s;
+}
+
+/* --------------------------------Price------------------------------------- */
+#check-price {
+    display: none;
+}
+
+#check-price[type=checkbox]:checked~.subPrice {
+    height: auto;
+    pointer-events: all;
+    transition: height 0.2s;
+}
+
+#check-price[type=checkbox]:checked~.subPrice a {
+    color: #6C7072;
+    ;
+    transition: color 0.2s 0.2s;
+}
+
+#check-price[type=checkbox]:not(checked)~.subPrice {
+    height: 0;
+    pointer-events: none;
+    transition: height 0.2s 0.2s;
+    list-style: none;
+}
+
+#check-price[type=checkbox]:not(checked)~.subPrice a {
+    color: rgba(51, 51, 51, 0);
+    transition: color 0.2s;
+}

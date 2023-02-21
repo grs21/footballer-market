@@ -1,0 +1,37 @@
+.attribute {
+    margin-right: 22px;
+    width: fit-content;
+    background: #FFFFFF;
+    border-radius: 8px;
+    display: flex;
+    width: 118px;
+}
+
+.atribute-container {
+    margin: 20px auto 20px 16px;
+}
+
+.percentage {
+    color: #979C9E;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.2vw;
+    line-height: 3.4vh;
+}
+
+.point {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.6vw;
+    line-height: 3.4vh;
+    color: #000000;
+}
+
+.attribute-point {
+    display: flex;
+}
+
+.attribute-name {
+    text-transform: capitalize;
+    color: #000000;
+}

@@ -1,0 +1,121 @@
+#app {
+  height: 100%
+}
+
+.swiper {
+  margin: 0;
+  width: 369px;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.slider-container {
+  display: flex;
+  background-image: url(../assets/images/sliderBackground.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.custom-wrapper {
+  display: flex;
+  width: 100%;
+  background-color: hsl(0deg 0% 0% / 70%);
+}
+
+.title-wrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-wrapper {
+  display: flex;
+  justify-content: flex-start;
+  flex: 1;
+}
+
+.title-container {
+  margin: 113px auto 30px 287px;
+  text-align: start;
+  font-style: normal;
+  font-weight: 700;
+  color: white;
+}
+
+.main-title {
+  font-size: 3.75vw;
+  line-height: 77px;
+}
+
+.slider-sub-title {
+  font-size: 3.4vw;
+  line-height: 77px;
+}
+
+.tranding-slider-control .swiper-button-prev {
+  transform: translateX(-30%) !important;
+}
+
+.tranding-slider-control .slider-arrow {
+  cursor: pointer;
+  background: var(--white);
+  display: flex;
+  border-radius: 50%;
+  filter: drop-shadow(0px 8px 24px rgba(18, 28, 53, 0.1));
+}
+
+.tranding-slider-control .slider-arrow ion-icon {
+  font-size: 2rem;
+  color: #222224;
+}
+
+.tranding-slider-control .slider-arrow::after {
+  content: '';
+}
+
+.tranding-slider-control {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 0 auto 120px 293px;
+}
+
+.tranding-slider-control .swiper-pagination {
+  position: unset;
+  width: unset;
+  margin: 0 16px;
+}
+
+.tranding-slider-control .swiper-pagination .swiper-pagination-bullet {
+  filter: drop-shadow(0px 8px 24px rgba(18, 28, 53, 0.1));
+  background: white;
+  opacity: unset;
+  margin: 0 1.5px;
+}
+
+.tranding-slider-control .swiper-pagination .swiper-pagination-bullet-active {
+  background: #E8282B;
+}

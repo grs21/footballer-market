@@ -1,0 +1,54 @@
+.filter-wrapper {
+    background-color: white;
+    border-radius: 8px;
+}
+
+.filter-title-container {
+    display: flex;
+}
+
+.filter-title {
+    color: black;
+    margin: 24px 76px 16px 24px;
+}
+
+.top-arrow {
+    margin: 30px 26px 16px auto;
+}
+
+.filter-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin: 0 0 16px 24px;
+}
+
+.filter-list li {
+    color: #6C7072;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    cursor: pointer;
+}
+
+.position-title {
+    color: black;
+    margin: 16px 76px 16px 24px;
+}
+
+.custom-top-arrow {
+    margin: 22px 26px 16px auto;
+}
+
+.itemCount {
+    color: #6C7072;
+    margin-left: 4px;
+}
+
+.line-style {
+    color: #6C7072;
+    margin: 0 24px;
+    border: 1px solid #E3E5E6;
+}

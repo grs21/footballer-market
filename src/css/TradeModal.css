@@ -1,0 +1,79 @@
+.toggle-wrapper {
+    overflow: scroll;
+    z-index: 11;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(0deg 0% 0% / 70%);
+}
+
+.toggle-container {
+    height: fit-content;
+    width: fit-content;
+    position: relative;
+    background-color: white;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.message-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 24px 23px 24px 22px;
+}
+
+.toggle-message {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}
+
+.trade-toggle-cost {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #E8282B;
+}
+
+.trade-toggle-buy-button {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    background: #E8282B;
+    border-radius: 8px;
+    border: none;
+    padding-top: 16px;
+    padding-right: 161px;
+    padding-bottom: 16px;
+    padding-left: 163px;
+    margin-bottom: 23px;
+}
+
+.trade-toggle-cancel-button {
+    border: none;
+    background: white;
+    color: #E8282B;
+    margin-bottom: 40px;
+}
